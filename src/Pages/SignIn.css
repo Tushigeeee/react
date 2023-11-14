@@ -1,0 +1,17 @@
+.MainContainer{
+    padding: 0;
+
+    }
+    .ContentContainer {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+       
+        background-color: bisque;
+        gap: 10px;
+        
+    }
+  

@@ -1,0 +1,67 @@
+
+.MainContainer{
+padding: 0;
+
+}
+.ContentContainer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+   
+    background-color: bisque;
+}
+.TermContainer{
+    display: flex;
+    flex-direction: row;
+   
+}
+.Buttons{
+   display:flex;
+   flex-direction:row ;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   margin-bottom: 30px;
+}
+#SignUpButton{
+
+   
+       
+        border: none;
+        background-color: rgb(2, 2, 110);
+        font-weight: 20px;
+        font-size: 20px;
+        border-radius: 8px;
+        color: #fff;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+        margin-top: 10px;
+       
+      
+      }
+      
+      #SignUpButton:hover {
+        background-color: rgb(0, 0, 196);
+      }
+      #SignInButton{
+
+   
+        
+        border: none;
+        background-color: rgb(2, 2, 110);
+        font-weight: 20px;
+        font-size: 20px;
+        border-radius: 8px;
+        color: #fff;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+        margin-top: 10px;
+      
+      }
+      
+      #SignInButton:hover {
+        background-color: rgb(0, 0, 196);
+      }
